@@ -1,3 +1,102 @@
+@import url('https://fonts.google.com/specimen/Raleway?query=Raleway');
+
+body{
+background-color: black;
+font-family: 'Raleway', sans-serif;
+}
+
+main{
+    color: white;
+
+}
 .titulo {
- color: brown;   
+ color: white;  
+ text-align: center; 
+ font-size: 40px;
+}
+
+.portada1 {
+text-align: center;
+}
+.intro{
+display: inline-block;
+background-color: black;
+margin-top: 3%;
+margin-bottom: 5%;
+}
+.text-intro{
+    padding: 5%;
+    width: 40%;
+    float: left;
+    margin-top: 6%;
+}
+.imag-intro{
+    float: right;
+    width: 40%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+.caract{
+background-color: #1E1A13; opacity: 98%;
+    width: 100%;
+    padding-top: 2%;
+    text-align: center; 
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.ojo{
+    float: left;
+margin-left: 23%;
+margin-top: 2%;
+margin-bottom: 2%;
+
+}
+.mano{
+    float: left;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+ 
+}
+.pincel{
+    margin-left: 20%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+   
+}
+.fotos{
+    display: inline-block;
+    width: 100%;
+}
+.foto1{
+    float: left;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.foto2{
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.foto3{
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+footer{
+    background-color: #1E1A13; opacity: 98%;
+    color: white;
+    text-align: center;
+    height: 150%;
+    padding-block: 2%;
+    margin-top: 2%;
+
+
 }
